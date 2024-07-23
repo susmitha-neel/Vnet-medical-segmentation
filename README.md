@@ -2,7 +2,9 @@
 A model built using VNet architecture for medical image segmentation.
 VNet is a convolutional neural network for segmentation of 3D images,
 which can be very useful for segmentation of 3D medical images like
-MRI scans or CT scans. 
+MRI scans or CT scans.
+The data used for this model is the LiTS dataset for liver tumor. 
+[LiTS-dataset](https://www.kaggle.com/datasets/andrewmvd/lits-png)
 The current VNet architecture is based on the architecture provided by
 Milletari et al in [V-Net: Fully Convolutional Neural Networks for Volumetric Medical Image Segmentation](https://arxiv.org/abs/1606.04797)
 The training size is small, and the depth of the model is low, as I have worked on the images without GPU access.
